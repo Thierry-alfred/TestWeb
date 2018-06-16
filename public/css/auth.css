@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(#2196F3 50%, #ccc 30%);
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+
+.bllogin{
+    margin-top: 149px;
+}
+
