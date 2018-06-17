@@ -42,6 +42,24 @@
                     <a href="#"><i class="fas fa-pencil-alt"></i></a>
                     <a href="#" class="red-text"><i class="fas fa-trash"></i></a>
                 </td>
+            </tr> <tr>
+                <th scope="row">2</th>
+                <td>Mark</td>
+                <td>Lorem ipsum dolor sit amet, consectetur
+                <td>@mdo</td>
+                <td>
+                    <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                    <a href="#" class="red-text"><i class="fas fa-trash"></i></a>
+                </td>
+            </tr> <tr>
+                <th scope="row">3</th>
+                <td>Mark</td>
+                <td>Lorem ipsum dolor sit amet, consectetur
+                <td>@mdo</td>
+                <td>
+                    <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                    <a href="#" class="red-text"><i class="fas fa-trash"></i></a>
+                </td>
             </tr>
             </tbody>
         </table>
