@@ -23,7 +23,7 @@ $(function(){
                dataType: "text"
            })
                .done(function(data) {
-                   
+
                    localStorage.removeItem('user');
 
                    location.href = '/';
