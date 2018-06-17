@@ -1,9 +1,9 @@
 @extends("auth.base")
 
 @section('content')
-   <div class="col-12">
+   <div class="col-12" id="login">
        <div class="row justify-content-center">
-           <div class="col-4 col-xs-12 col-sm-12 col-md-6 col-lg-4">
+           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                <div class="card bllogin">
                    <div class="card-header">
                        <h3 class="" ><span>Log in ...</span></h3>
@@ -18,8 +18,8 @@
                            <label for="password">Email</label>
                            <input type="password" class="form-control" id="password" name="password">
                        </div>
-                       <button class="btn btn-primary">Log In</button>
-                       <a href="{{route('signup')}}">Sing Up</a>
+                       <a href="#" id="btnlogin" class="btn btn-primary">Log In</a>
+                       <a href="/signup">Sing Up</a>
                    </div>
                </div>
            </div>
