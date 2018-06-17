@@ -8,7 +8,7 @@
                    <div class="card-header">
                        <h3 class="" ><span>Log in ...</span></h3>
                    </div>
-
+                   <div id="alert"></div>
                    <div class="card-body">
                        <div class="form-group">
                            <label for="email">Email</label>

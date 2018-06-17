@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="d-flex menu flex-row justify-content-between">
-    <span class="p-2 d-none d-md-block">Welcome back, THierry</span>
+    <span class="p-2 d-none d-md-block">Welcome back, <span id="homename"></span></span>
     <ul class="nav  justify-content-end">
         <li class="nav-item">
 
@@ -27,7 +27,7 @@
             <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Account</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/">Logout</a>
+            <a class="nav-link" href="#" id="btnlogout">Logout</a>
         </li>
     </ul>
 </div>
@@ -54,9 +54,9 @@
                    <div class="d-flex flex-row detailcpt">
                        <img src="{{asset('img/persone.png')}}" alt="">
                        <div class="d-flex flex-column">
-                           <h1>Thierry Alfred</h1>
-                           <span>Birth of 2018/11/15</span>
-                           <span>Thierry@gmail.com</span>
+                           <h1 id="detname"></h1>
+                           <span id="detbirth"></span>
+                           <span id="detemail"></span>
                        </div>
                    </div>
                    <div class="d-flex flex-row align-content-end">
@@ -92,7 +92,7 @@
         </div>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="{{asset('js/home.js')}}"></script>

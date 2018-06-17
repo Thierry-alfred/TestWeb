@@ -53,8 +53,12 @@ html{
     .hide-xs{
         display: none;
     }
+
+}
+
+@media (max-width: 770px){
     .list{
-        padding: 0px!important;
+        padding: 24px 0px 0px 0px!important;
     }
 }
 .hide{
