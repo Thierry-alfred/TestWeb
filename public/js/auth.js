@@ -64,7 +64,6 @@ $(function(){
             .done(function(data) {
                 console.log(data);
                 if(data.status_code == 200){
-
                     location.href = '/';
                 }else{
                     showError('Error : ' + data.status_code + ' , ' + data.message);

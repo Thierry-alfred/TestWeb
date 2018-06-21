@@ -6,9 +6,10 @@
        <div class="d-flex  p-2 flex-column">
            <div class="d-flex flex-row p-2">
                <img class="p-2" id="imagesave" src="{{asset('img/blank.png')}}" alt="">
+
                <div class="form-group" style="width: 100%">
                    <label for="title">Title</label>
-                   <input type="text" id="title" class="form-control" name="title">
+                   <input type="text" id="titre" class="form-control" name="title">
                </div>
            </div>
            <div class="p-2">
@@ -17,7 +18,7 @@
                    <textarea rows="5" cols="3" id="description" class="form-control" name="description"></textarea>
                </div>
            </div>
-           <div class="p-4"><a href="#" class="btn btn-primary">Save data</a></div>
+           <div class="p-4"><a href="#" id="btnsavearticle" class="btn btn-primary">Save data</a></div>
        </div>
         <input type="file" id="fileimg" class="hide">
     </div>
@@ -32,35 +33,8 @@
                 <th scope="col">#</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Lorem ipsum dolor sit amet, consectetur
-                <td>@mdo</td>
-                <td>
-                    <a href="#"><i class="fas fa-pencil-alt"></i></a>
-                    <a href="#" class="red-text"><i class="fas fa-trash"></i></a>
-                </td>
-            </tr> <tr>
-                <th scope="row">2</th>
-                <td>Mark</td>
-                <td>Lorem ipsum dolor sit amet, consectetur
-                <td>@mdo</td>
-                <td>
-                    <a href="#"><i class="fas fa-pencil-alt"></i></a>
-                    <a href="#" class="red-text"><i class="fas fa-trash"></i></a>
-                </td>
-            </tr> <tr>
-                <th scope="row">3</th>
-                <td>Mark</td>
-                <td>Lorem ipsum dolor sit amet, consectetur
-                <td>@mdo</td>
-                <td>
-                    <a href="#"><i class="fas fa-pencil-alt"></i></a>
-                    <a href="#" class="red-text"><i class="fas fa-trash"></i></a>
-                </td>
-            </tr>
+            <tbody id="articlelist">
+
             </tbody>
         </table>
     </div>

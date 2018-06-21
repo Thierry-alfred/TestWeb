@@ -52,7 +52,9 @@
             <div class="modal-body">
                <div class="d-flex flex-column" >
                    <div class="d-flex flex-row detailcpt">
-                       <img src="{{asset('img/persone.png')}}" alt="">
+                       <img id="fileprofile" src="{{asset('img/persone.png')}}" alt="">
+                       {{--<a href="#"  id="saveimg"><i class="fas fa-save"></i>save</a>--}}
+                       <input type="file" id="file" class="hide">
                        <div class="d-flex flex-column">
                            <h1 id="detname"></h1>
                            <span id="detbirth"></span>

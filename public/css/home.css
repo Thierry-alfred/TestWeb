@@ -48,6 +48,8 @@ html{
 .detailcpt img{
     width: 44%;
     height: 50%;
+}.detailcpt img:hover{
+    cursor: pointer;
 }
 @media (max-width: 400px) {
     .hide-xs{
